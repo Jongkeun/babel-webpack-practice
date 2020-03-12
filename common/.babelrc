@@ -1,0 +1,17 @@
+{
+  "presets": ["@babel/preset-react"],
+  "plugins": [
+    [
+      "@babel/plugin-transform-template-literals",
+      {
+        "loose": true
+      }
+    ]
+  ]
+}
+
+/*
+plugin에 옵션을 설정할 때는 배열로 만들어서 두번째 자리에 옵션을 넣는다.
+[ "@babel/plugin-transform-template-literals", { "loose": true } ]
+template-literals 플러그인에 "loose" 옵션을 주면 문자열을 연결할 때 concat 대신에 + 를 이용한다.
+*/

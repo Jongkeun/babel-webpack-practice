@@ -1,0 +1,13 @@
+{
+  "extends": "../../common/.babelrc",
+  "plugins": [
+    "@babel/plugin-transform-template-literals",
+    "@babel/plugin-transform-arrow-functions"
+  ]
+}
+
+/*
+extends 속성을 이용해서 다른파일에 있는 설정을 가져온다.
+"@babel/plugin-transform-arrow-functions" 은 "../../common/.babelrc"에 존재하지만
+"loose" 옵션이 없다.
+*/
